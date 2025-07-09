@@ -19,25 +19,28 @@ This project demonstrates Kubernetes health checks using liveness, readiness, an
 
 <p align="center">
 Implemented liveness probe to auto-restart unhealthy containers <br />
-<img src="https://i.postimg.cc/JhYJfkW7/1.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/JhYJfkW7/1.jpg"/>
 <br />
 <br />
-Containerized for Easy Deployment <br/>
-<img src="https://i.imgur.com/vx3duwk.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Added readiness probe to control traffic flow to containers <br/>
+<img src="https://i.postimg.cc/DzKgwsW2/2.jpg"/>
 <br />
 <br />
-Kubernetes Deployment & Service  <br/>
-<img src="https://i.imgur.com/BdwS64P.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configured startup probe for slow-initializing apps <br/>
+<img src="https://i.postimg.cc/7YF1K7ng/3.jpg" />
 <br />
 <br />
-Scraping Custom Metric & Monitoring with Prometheus <br/>
-<img src="https://i.imgur.com/kHJ0Vht.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Enabled Metrics Server to monitor CPU and memory usage  <br/>
+<img src="https://i.postimg.cc/ZqcrYQtc/4.jpg"/>
 <br />
 <br />
-Self-Healing System with HPA  <br/>
-<img src="https://i.imgur.com/oKyjZBQ.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Simulated a failing Pod and debugged using kubectl logs and describe <br/>
+<img src="https://i.postimg.cc/jqWZvsrY/5.jpg" />
 <br />
 <br />
-  
+Deployed a multi-replica Deployment for observability testing <br/>
+<img src="https://i.postimg.cc/76j1j2y8/7.jpg" />
+<br />
+
 </p>
 
